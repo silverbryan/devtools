@@ -1,0 +1,74 @@
+{
+  "name": "yourdevtools.com",
+  "description": "best tools for developers",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "format": "yarn format:code && yarn format:md",
+    "format:code": "prettier --write src/**/*.{js,jsx}",
+    "format:md": "prettier --write content/**/*.{md,mdx}",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "test": "tests",
+    "generate": "node static/scripts/markdownGenerator.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "gatsby": "^3.12.0",
+    "gatsby-plugin-google-analytics": "^3.12.0",
+    "gatsby-plugin-image": "^1.12.0",
+    "gatsby-plugin-manifest": "^3.12.0",
+    "gatsby-plugin-react-helmet": "^4.12.0",
+    "gatsby-plugin-sass": "^4.12.0",
+    "gatsby-plugin-sharp": "^3.12.0",
+    "gatsby-plugin-sitemap": "^4.8.0",
+    "gatsby-source-filesystem": "^3.12.0",
+    "gatsby-transformer-remark": "^4.9.0",
+    "gatsby-transformer-sharp": "^3.12.0",
+    "got": "^11.8.2",
+    "metascraper": "^5.24.2",
+    "node-sass": "^6.0.1",
+    "prismjs": "^1.16.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.38.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "bugs": {
+    "url": "https://none"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "husky": "^7.0.2",
+    "inquirer": "^8.1.2",
+    "metascraper-description": "^5.24.2",
+    "metascraper-image": "^5.24.2",
+    "metascraper-title": "^5.24.2",
+    "metascraper-url": "^5.24.2",
+    "prettier": "^2.4.1",
+    "uuid": "^8.3.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
+}

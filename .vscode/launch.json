@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Chrome",
+      "request": "launch",
+      "type": "pwa-chrome",
+      "url": "http://localhost:8001",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Debug Scripts",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}\\static\\scripts\\markdownGenerator.js"
+    },
+    {
+      "name": "Attach to Node Functions",
+      "type": "node",
+      "request": "attach",
+      "port": 9229,
+      "preLaunchTask": "func: host start"
+    }
+  ]
+}

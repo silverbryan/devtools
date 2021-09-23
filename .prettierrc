@@ -1,0 +1,20 @@
+{
+  "semi": true,
+  "trailingComma": "es5",
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "parser": "babel",
+  "arrowParens": "avoid",
+  "overrides": [
+    {
+      "files": "*.md",
+      "options": {
+        "tabWidth": 2,
+        "parser": "markdown"
+      }
+    }
+  ]
+}

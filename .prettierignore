@@ -1,0 +1,8 @@
+node_modules/
+jspm_packages/
+api/
+public/
+desing/
+static/
+.vscode/
+.cache/

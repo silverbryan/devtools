@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="187px" height="144px" viewBox="0 0 187 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo" fill-rule="nonzero">
+            <path d="M71.817,144 C111.481,144 91.884,100.588 164.757,72 C237.631,43.412 111.481,0 71.817,0 C32.154,0 0,32.235 0,72 C0,111.765 32.154,144 71.817,144 Z" id="Path" fill="#3800A1"></path>
+            <g id="Group-3" transform="translate(34.000000, 43.000000)" fill="#FFFFFF">
+                <polygon id="Path-3" points="55.9996329 1 67 15.8090468 36.1015671 59 25 44.9007765"></polygon>
+                <polygon id="Path-2" points="33.433691 0 23 13.6951287 33.433691 29 44 13.7300885"></polygon>
+                <polygon id="Path-2" points="10.433691 0 0 13.6951287 10.433691 29 21 13.7300885"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

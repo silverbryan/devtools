@@ -1,0 +1,17 @@
+.button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+.transparent {
+  color: currentColor;
+  background-color: transparent;
+}
+
+.primary {
+  padding: 5px 10px;
+  background-color: #0ebac5;
+  color: white;
+}
