@@ -12,7 +12,9 @@
       "type": "pwa-node",
       "request": "launch",
       "name": "Debug Scripts",
-      "skipFiles": ["<node_internals>/**"],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}\\static\\scripts\\markdownGenerator.js"
     },
     {
